@@ -16,7 +16,7 @@
         background-color: #92C5EB;
         max-height: 5vh;
     }
-    body>main>* {
+    body>main>IMG {
         margin-left: 50px;
         margin-right: 50px;
         display: block;
@@ -58,14 +58,7 @@
     #error {
         display: none;
     }
-    #waves>img {
-        width: 40vw;
-        margin-top: 15vh;
-        margin-right: 20vw;
-    }
-    #waves {
-        display: flex;
-    }
+    
     footer>h1 {
         color: green;
         text-align: center;
@@ -84,6 +77,12 @@
   @keyframes example {
     from {background-color: yellow;}
     to {background-color: red;}
+  }
+
+  main>*{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
   }
 }
 
@@ -147,58 +146,8 @@
         min-height: 10vh;
 }
 
-@-webkit-keyframes glide {
-    from {
-        left: 0px;
-        top: 0px;
-    }
-    to {
-        left: 0px;
-        top: 20px;
-    }
-}
 
-@-webkit-keyframes glide2 {
-    from {
-        left: 0px;
-        top: 20px;
-    }
-    to {
-        left: 0px;
-        top: 0px;
-    }
-}
 
-#waves>img:nth-child(1) {
-    width: 40vw;
-    height: 20vh;
-    margin-top: 15vh;
-    margin-right: 5vw;
-    position: relative;
-    -webkit-animation: glide 2s ease-in-out alternate infinite;
-}
-
-#waves>img:nth-child(3) {
-    width: 40vw;
-    height: 20vh;
-    margin-top: 15vh;
-    margin-right: 20vw;
-    position: relative;
-    -webkit-animation: glide 2s ease-in-out alternate infinite;
-}
-
-#waves>img:nth-child(2) {
-    width: 10vw;
-    height: 15vw;
-    margin-top: 15vh;
-    margin-right: 5vw;
-    position: relative;
-    -webkit-animation: glide2 2s ease-in-out alternate infinite;
-}
-
-#waves {
-    display: flex;
-}
 
 footer>h1 {
     color: green;
