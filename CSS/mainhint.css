@@ -14,9 +14,12 @@
 @media screen and (max-width: 480px) {
     body {
         background-color: #92C5EB;
+        max-height: 5vh;
     }
-    body>main>img {
-        margin-left: 20vw;
+    body>main>* {
+        margin-left: 50px;
+        margin-right: 50px;
+        display: block;
         border-radius: 25%;
         margin-top: 2vh;
     }
@@ -39,8 +42,6 @@
     }
     body>main>section {
         margin-top: 3vh;
-        display: flex;
-        column-gap: 4vw;
         margin-left: 20vw;
     }
     body>main>section>p:nth-child(1) {
@@ -48,7 +49,7 @@
     }
     body>main>section>p:nth-child(2) {
         background-color: green;
-        height: 56px
+        height: 59px
     }
     body>main>section>p {
         font-size: 20px;
@@ -71,7 +72,7 @@
     }
     body>footer {
         background-color: #8B0000;
-        height: 30vh;
+        min-height: 10vh;
     }
    span{ 
     background-color: red;
@@ -141,6 +142,9 @@
     #error {
         display: none;
     }
+    body>footer {
+        background-color: #8B0000;
+        min-height: 10vh;
 }
 
 @-webkit-keyframes glide {

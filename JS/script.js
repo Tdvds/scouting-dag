@@ -1,9 +1,36 @@
-const randomItem = ['cent van jaren 60', 'blauwe schroevendraaier', 'konijnen oren', 'gele boormachine',
-    'zwembroek', 'schaatsen', 'afstand bestuurbare auto', 'tandenborstel', 'kaasbroodje', 'klok', 'waterpistool',
-    'bad eend', 'mok', 'skylander', 'paars papier', 'pyjama', 'kwast type 13', 'pc ventilator', 'knuffel', 'hawaii rokje',
-    'spiderman rugtas', 'mickey mouse oren', 'kerstverlichting', 'kerstballen', 'nintendo wii spel', 'roze stropdas',
-    'een dobbelsteen met 20 zijden', 'rieten hoed', 'console controller', 'cactus plantje', 'frikandelbroodje', 'pannenkoekenpan',
-    'donald duck stripboek', 'pokémon kaarten', 'eenhorn onesie'
+const randomItem = ['Een opblaasbare kroon', 'een mini-waterkoker', 'een emoji kussen', 'een opvouwbare stoel',
+    'een zonnebril in de vorm van een hart', 'een handventilator', 'een mini-ezeltje', 'een opblaasbare flamingo',
+    'een opvouwbare frisbee', 'een elektrische tandenborstel in de vorm van een robot', 'een holografische clutch',
+    'een mini-voetbal', 'een opblaasbaar luchtbed in de vorm van een ananas', 'een lippenbalsem in de vorm van een donut',
+    'een mini-sneeuwbol', 'een opblaasbare pizzapunt', 'een mini-strijkijzer', 'een grappige sleutelhanger', 'een mini-fluitje',
+    'een opblaasbare krokodil', 'een mini-spellen set', 'een paraplu in de vorm van een bloem', 'een opblaasbare eenhoorn',
+    'een mini-cactus', 'een opvouwbare lunchbox', 'een emoji t-shirt', 'een mini-spelcomputer', 'een opblaasbare zwaan',
+    'een mini-draaitafel', 'een opvouwbare fietsbel', 'een opblaasbare palmboom', 'een mini-badmintonset', 'een opblaasbare papegaai',
+    'een mini-zeemeermin', 'een opvouwbare rugzak', 'een emoji koptelefoon', 'een mini-bokszak', 'een opblaasbare donut',
+    'een mini-videocamera', 'een opblaasbare walvis', 'een mini-kluisje', 'een opvouwbare frisbee in de vorm van een UFO',
+    'een opblaasbare hond', 'een mini-schildersezel', 'een opblaasbare champagnefles', 'een mini-draagbare luidspreker',
+    'een opblaasbare zeehond', 'een mini-hamer', 'een opvouwbare kam', 'een opblaasbare kreeft', 'een mini-plantschaar',
+    'een opblaasbare octopus', 'een mini-afwasborstel', 'een opblaasbare tijger', 'een mini-kampeerset', 'een opblaasbare cactus',
+    'een mini-fitness set', 'een opblaasbare giraffe', 'een mini-koelkast', 'een opvouwbare toilettas', 'een opblaasbare zalm',
+    'een mini-spiegelbal', 'een opblaasbare olifant', 'een mini-snoepautomaat', 'een opblaasbare koe', 'een mini-sleutelvinder',
+    'een opblaasbare krab', 'een mini-bureaulamp', 'een opblaasbare slang', 'Draadloze oortjes',
+    'Waterdichte telefoonhoes', 'Verstelbare weerstandsbanden',
+    'Zachte slaapmasker', 'Compacte reiswekker', 'Opvouwbare fiets', 'Draagbare blender', 'Multifunctionele telefoonhouder',
+    'Opvouwbare picknicktafel', 'Waterfles met infuser', 'Handige bagage organizer', 'Draagbare luchtzuiveraar',
+    'Verstelbare laptopstandaard', 'Flexibele telefoonstatief', 'Opvouwbare hondenbench', 'Mini-projector',
+    'Roterende krultang', 'Opvouwbare loopband', 'Draagbare hangmat', 'Lichtgewicht koffer', 'Multifunctionele autolader',
+    'Slimme weegschaal', 'Oplaadbare zaklamp', 'Draagbare kledingstomer', 'Bewegingssensor nachtlampje', 'Opvouwbare barbecue',
+    'Elektrische schroevendraaier', 'Handige wijnopener', 'Draagbare espressomachine', 'Verstelbare tafelventilator', 'Slimme thermostaat',
+    'Elektrische deken', 'Programmeerbare koffiemachine', '3D-printer', 'Elektrische tandenborstel', 'Robotstofzuiger', 'Slimme verlichting',
+    'Slimme deurbel', 'Zelfopblazend luchtbed', 'Rugmassagekussen', 'Professionele haardroger', 'Smartwatch', 'Solar powerbank', 
+    'Smart home hub', 'Kruimeldief', 'Multiroom audio systeem', 'Slimme plantenpot', 'Yoga mat', 'Handheld game console',
+    'Elektrische step', 'Waterdichte actiecamera', 'GPS horloge', 'Elektrische grasmaaier', 'Slim slot', 'Slimme kattenbak',
+    'Fietsnavigatiesysteem', 'Fitness tracker', 'Bewegingssensor buitenverlichting', 'Slimme gezichtsreiniger', 'Elektrische drukkoker',
+    'Slimme luchtreiniger', 'Slimme oven', 'Slimme friteuse', 'Slimme koelkast', 'Slimme waterkoker', 'Slimme tandenborstelhouder',
+    'Slimme vuilnisbak', 'Slimme raamdecoratie', 'Slimme kraan', 'Slimme spiegel'
+     
+     
+     
 
 ];
 
