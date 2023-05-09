@@ -27,7 +27,8 @@ const randomItem = ['Een opblaasbare kroon', 'een mini-waterkoker', 'een emoji k
     'Elektrische step', 'Waterdichte actiecamera', 'GPS horloge', 'Elektrische grasmaaier', 'Slim slot', 'Slimme kattenbak',
     'Fietsnavigatiesysteem', 'Fitness tracker', 'Bewegingssensor buitenverlichting', 'Slimme gezichtsreiniger', 'Elektrische drukkoker',
     'Slimme luchtreiniger', 'Slimme oven', 'Slimme friteuse', 'Slimme koelkast', 'Slimme waterkoker', 'Slimme tandenborstelhouder',
-    'Slimme vuilnisbak', 'Slimme raamdecoratie', 'Slimme kraan', 'Slimme spiegel'
+    'Slimme vuilnisbak', 'Slimme raamdecoratie', 'Slimme kraan', 'Slimme spiegel', 'Cthulhu-pop', 'Draken-ei', 'Eenhoornhoorn',
+    'Bigfoot-sloffen', 'Yeti-muts', 'Zeemeermin-staart', 'Vampier-tanden', 'Zombie-lichaam', 'Sfinx-kat', 'Harpij-klauwen'
      
      
      
