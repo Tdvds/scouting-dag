@@ -38,15 +38,6 @@ const randomItem = ['Een opblaasbare kroon', 'een mini-waterkoker', 'een emoji k
 
 
 
-function chanceImage() {
-    let chance = Math.floor(Math.random() * 10) + 1;
-    if (chance == 1) {
-        document.getElementById('changeImage').src = 'IMG/sailboat-chance.png';
-        document.getElementById("changeWaves1").src = "IMG/waves-chance.png";
-        document.getElementById("changeWaves2").src = "IMG/waves-chance.png";
-        document.getElementById("changeWaves1").width = "20vh";
-    }
-}
 
 
 
@@ -58,8 +49,8 @@ function randomitemcalc() {
     document.getElementById('random-item').innerHTML = item;
 }
 
-window.addEventListener('load', chanceImage);
 
-window.addEventListener('load', randomitemcalc)
+
+window.addEventListener('load', randomitemcalc);
 
 console.log(randomItem.length);
